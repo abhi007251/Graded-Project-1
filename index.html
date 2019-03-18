@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+        <h1 class='heading1'>ScriBBler</h1>
+        <h2 class='heading2'>Explore , Imagine , Create</h2>
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+
+        </div>
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+        	<span>
+        	<button class='btn1'><a class='anchortag' href="html\bloglist.html">All Posts</a></button>
+        	
+ 			</span>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div>
+
+    	<!-- Insert code for Sign In modal here -->
+    	<button id='signin' class='btnsignin'>Sign In</button>
+        <div id="mymodal2" class="modal2">
+
+        <!-- Modal content -->
+        <div class="modal-content2">
+        <div class="modal-header2">
+        <span class="close2">&times;</span>
+        <h2>Welcome Back!</h2>
+        <hr>
+        </div>
+        <div class="modal-body2">
+        <form action="/action_page.php">
+        Username<br>
+        <input class="inpttype" type="text" name="uname" placeholder="Enter Username" required >
+        <br><br>
+        Password<br>
+        <input class="inpttype" type="Password" name="pswd" placeholder="Enter Password" required >
+        <br><br>
+        <button class='signin1'>Sign In</button>
+        </form>
+        <br><br><br><br>
+        <span class='spanclass'>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Not a member?<a id="anchortag" href="#">Sign Up</a></span>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+
+
+   <!--Signin div ends here -->
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Sign Up modal here -->
+    	<button id='signup1' class='btnsignup'>Sign Up</button>
+
+  <div id="myModal" class="modal">
+
+   <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Get Started</h2>
+      <hr>
+    </div>
+    <div class="modal-body">
+     <form action="/action_page.php">
+  Full Name<br>
+  <input class="inpttype" type="text" name="fullname" placeholder="Enter Full Name" required >
+  <br><br>
+  Username<br>
+  <input class="inpttype" type="text" name="username" placeholder="Enter Username" required>
+  <br><br>
+  Password<br>
+  <input class="inpttype" type="password" name="password" placeholder="Enter PassWord">
+  <br><br>
+  Confirm Password<br>
+  <input class="inpttype" type="password" name="password" placeholder="Confirm Password">
+  <br><br>
+ <button id='signup'>Sign Up</button>
+</form> 
+    </div>
+   
+   </div>
+  </div>
+  </div>
+
+
+    <div>
+
+    	<!-- Insert code for Create Post modal here -->
+      <button class ='btn2' id='createpostbtn'>Create Post</button>
+       <div id="mymodal3" class="modal3">
+        <div class="modal-content3">
+    <div class="modal-header3">
+    <span class="close3">&times;</span>
+      <h2>Create Post</h2>
+      <hr>
+    </div>
+    <div class="modal-body3">
+     <form action="/action_page.php">
+  Enter Title<br>
+  <input class="inpttype" type="text" name="title" placeholder="Enter title" required >
+  <br><br>
+  Write<br>
+  <textarea rows="4" cols="41">
+  Enter your details....
+  </textarea>
+  <br><br>
+ <button class="createbtn">Create</button> 
+ <button class="closebtn" id='closebtnid'>Close</button> 
+</form> 
+    </div>
+    </div>
+    </div>
+    </div>
+
+  
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>

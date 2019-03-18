@@ -1,0 +1,373 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+   font-family: satisfy; 
+   padding-top: 0.1%;
+
+} 
+.heading1
+{
+
+	color:blue;
+	padding-top: 0.1%;
+	margin-top: 0px;
+}
+.heading2
+{
+   color:black;
+   padding-top: 0%;
+   margin-top: -15px;
+   font-weight: normal;
+   font-size:15px;
+
+
+}
+
+.btn1
+{
+	border:1px solid black;
+	position: absolute;
+  	top: 40%;
+  	left: 42%;
+  	margin-left: 5px;
+  	margin-top: 4px;
+  	color:black;
+  	background-color: #CFB53B;
+  	text-align: center;
+  	width: 7%;
+  	height:6%;
+  	border-style: inset;
+  border-width: 1px;
+  border-color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+
+
+  	
+}
+.btn2
+{
+	border:1px solid black;
+	position: absolute;
+  	top: 40%;
+  	left: 50%;
+  	margin-left: 5px;
+  	margin-top: 4px;
+  	color:black;
+  	text-align: center;
+  	background-color: #CFB53B;
+  	width: 8%;
+  	height:6%;
+    border-style: inset;
+  border-width: 1px;
+  border-color: white;
+  font-weight: bold;
+   font-size: 14px;
+}
+
+.btnsignin
+{
+	  border:1px solid black;
+	  position: absolute;
+  	top: 0.5%;
+  	left: 85%;
+  	margin-left: 5px;
+  	margin-top: 4px;
+  	text-align: center;
+  	background-color: #0000FF;
+  	color:white;
+  	height: 5%;
+  	width:6%;
+    cursor: pointer;
+    text-align: center;
+}
+.btnsignup
+{
+	border:1px solid black;
+	position: absolute;
+  	top: 0.5%;
+  	left: 92%;
+  	margin-left: 5px;
+  	margin-top: 4px;
+  	color:black;
+  	text-align: center;
+  	background-color: #0000FF;
+  	color:white;
+  	height: 5%;
+  	width:6%;
+  	  border-style: inset;
+  border-width: 1px;
+}
+.inpttype
+{
+     background-color : #F5F5F5;
+     padding:10px;
+     width: 103%;
+     border: none;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+                                 
+/*modal signin styling*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ 
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 3px;
+  border: 1px solid #888;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  background-color: #FEFEFE;
+  height: 75%;
+  padding-right: 2%;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+ color:#ddd;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.modal-body {
+	padding: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+}
+
+#signup
+{
+  background-color: #5EB762;
+  font-family: 'Roboto', sans-serif;
+  width:110%;
+  color:white;
+  height:3em;
+  border:none;
+   margin-right: -30px;
+}
+
+/*-------------------------------------------------------------*/
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ 
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modal-content2 {
+  position: relative;
+  margin: auto;
+  padding: 3px;
+  border: 1px solid #888;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  background-color: #FEFEFE;
+  height: 60%;
+  padding-right: 2%;
+}
+
+.close2 {
+  color:#ddd;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header2 {
+  padding: 2px 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.modal-body2 {
+	padding: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+}
+
+.signin1
+{
+  background-color: #5EB762;
+  font-family: 'Roboto', sans-serif;
+  width:111%;
+  color:white;
+  height:3em;
+  border:none;
+  margin-right: -30px;
+
+
+}
+.spanclass
+{
+	 font-family: 'Roboto', sans-serif;
+	 margin-bottom: 100px;
+	 padding-right: 30px;
+   margin-left:5px;
+}
+a
+{
+	text-decoration: none;
+
+}
+.anchortag
+{
+	color:inherit;
+}
+
+#signup2 {
+    cursor: pointer;
+    text-align: center;
+} 
+
+/*---------------------------------------*/
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ 
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content3 {
+  position: relative;
+  margin: auto;
+  padding: 3px;
+  border: 1px solid #888;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  background-color: #FEFEFE;
+  height: 55%;
+  padding-right: 2%;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close3 {
+ color:#ddd;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header3 {
+  padding: 2px 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.modal-body3 {
+  padding: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.createbtn
+{
+  background-color: #4CAF50;
+  color:white;
+  float:left;
+}
+.closebtn
+{
+  background-color: #DA2828;
+  color:white;
+  float:right;
+}
